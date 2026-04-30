@@ -1,15 +1,16 @@
 -- FX Information
 fx_version 'cerulean'
 use_experimental_fxv2_oal 'yes'
+nui_callback_strict_mode 'true'
 lua54 'yes'
 game 'gta5'
 
 -- Resource Information
 name 'ox_target'
 author 'Overextended'
-version '1.17.3'
+version '1.18.0'
 repository 'https://github.com/communityox/ox_target'
-description 'GGWPx'
+description ''
 
 -- Manifest
 ui_page 'web/index.html'
@@ -38,6 +39,7 @@ files {
 	'client/framework/ox.lua',
 	'client/framework/esx.lua',
 	'client/framework/qbx.lua',
+	'client/framework/corex.lua',
 	'client/compat/qtarget.lua',
 }
 
